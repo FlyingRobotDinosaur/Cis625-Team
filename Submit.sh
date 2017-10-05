@@ -1,4 +1,3 @@
-Submit.sh
 #!/bin/bash
 qsub -q \*@@elves -pe mpi-2 2 -l mem=8G -l h_rt=24:00:00 Script2a.sh
 qsub -q \*@@elves -pe mpi-spread 2 -l mem=8G -l h_rt=24:00:00 Script2b.sh
