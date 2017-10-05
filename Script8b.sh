@@ -1,4 +1,3 @@
-Script8b.sh
 #!/bin/bash
 let i=10
 while [ $i -lt 999999 ]; do
